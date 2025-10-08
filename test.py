@@ -20,7 +20,7 @@ info_pais = (
     dados['location']['tz_id'],
     dados['location']['localtime']
 )
-
+print(info_pais)
 
 #------Tempo-----#
 tempo = (
@@ -32,5 +32,4 @@ tempo = (
     dados['current']['cloud'],
     dados['current']['feelslike_c']
 )
-
 
